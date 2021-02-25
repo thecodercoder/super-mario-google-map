@@ -1,4 +1,6 @@
 function initMap(){
+
+  // Update MAP_ID with custom map ID
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 34.66767774804736, lng: 135.43076145097373},
     zoom: 18,
